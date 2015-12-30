@@ -1,7 +1,107 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Oxygen:300,700' rel='stylesheet' type='text/css'>
+<style>
+body {
+	font-family: Helvetica, Ariel, sans-serif;
+	background-color: #E91E63;
+}
+h1, h3 {
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+h1 {
+	font-size: 7em;
+	font-weight: 300;
+	font-family: 'Oxygen', sans-serif;
+	border-bottom: 5px solid white;
+	padding-bottom: 20px;
+	-ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+}
+h3 {
+	font-size: 2em;	
+	font-weight: 700;
+	font-family: 'Oxygen', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 30px auto 30px;
+}
+
+li {
+	text-align:center;
+}
+a {
+	color: white;
+	font-size: 1.2em;
+	line-height: 2em;
+	text-decoration:none;
+	border-bottom: 1px solid white;
+	padding-bottom: 2px;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.left {
+	text-align:left;
+}
+.right {
+	text-align: right;
+}
+.center {
+	text-align:center;
+}
+div.main {
+	width: 100%;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	h1 { font-size:7em;}
+    h3 { font-size:3em;}
+    a { font-size:4em;}
+}
+
+@media only screen 
+  and (min-device-width: 568px) 
+  and (max-device-width: 800px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	h1 { font-size:7em;}
+    h3 { font-size:3em;}
+    a { font-size:3em;}
+}  
+
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	h1 { font-size:7em;}
+    h3 { font-size:3em;}
+    a { font-size:2em;}
+}
+
+</style>
+<title>SeanCAtkinson</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div class="centered main">
+	<h3>Hello World,</h3>
+	<h1>I'm Sean</h1>
+	<ul>
+		<li class="center"><a target="_blank" href="https://twitter.com/SeanCAtkinson">Twitter</a></li>
+		<li class="center"><a target="_blank" href="https://github.com/SeanCAtkinson">Github</a></li>
+		<li class="center"><a target="_blank" href="https://medium.com/@SeanCAtkinson">Blog</a></li>
+	</ul>
+</div>
 </body>
 </html>
